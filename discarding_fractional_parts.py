@@ -1,6 +1,5 @@
-# =============================================================================
-# 1.1 - Hotel Room Calculator
-# =============================================================================
+# =============================================================================# 1.1 - Hotel Room Calculator
+
 
 def rooms_needed(guests):
     """
@@ -23,9 +22,8 @@ print(rooms_needed(1))    # 1 room
 print(rooms_needed(0))    # None
 
 
-# =============================================================================
 # 1.2 - Subnetting 192.168.1.0/24
-# =============================================================================
+
 
 """
 SUBNETTING EXPLANATION
@@ -39,7 +37,7 @@ Step 1 - Find the number of host bits needed.
     We need enough host bits to support at least 30 hosts.
     Formula: 2^h - 2 >= 30   (subtract 2 for network and broadcast addresses)
 
-    h = 5 -> 2^5 - 2 = 30  ✓  (exactly 30 usable hosts)
+    h = 5 -> 2^5 - 2 = 30   (exactly 30 usable hosts)
 
 Step 2 - Calculate the new subnet mask.
     Total bits in IPv4 address = 32
