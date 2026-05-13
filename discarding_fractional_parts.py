@@ -1,4 +1,4 @@
-# =============================================================================# 1.1 - Hotel Room Calculator
+# 1.1 - Hotel Room Calculator
 
 
 def rooms_needed(guests):
